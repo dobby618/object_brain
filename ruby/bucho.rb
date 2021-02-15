@@ -5,9 +5,7 @@ class Bucho < Shain
     puts '部長はゆっくり起立しました。'
   end
 
-  private
-
-  def calculate_salary
-    @kihonkyu * 3
+  def calculate_salary(kihonkyu)
+    kihonkyu * 3
   end
 end

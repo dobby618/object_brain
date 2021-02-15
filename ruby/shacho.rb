@@ -4,12 +4,12 @@ require_relative 'tanto'
 
 shain = Tanto.new
 shain.standup
-shain.get_kyuryo
+puts "私の給料は#{shain.calculate_salary(100)}円です。"
 
 shain = Shunin.new
 shain.standup
-shain.get_kyuryo
+puts "私の給料は#{shain.calculate_salary(100)}円です。"
 
 shain = Bucho.new
 shain.standup
-shain.get_kyuryo
+puts "私の給料は#{shain.calculate_salary(100)}円です。"

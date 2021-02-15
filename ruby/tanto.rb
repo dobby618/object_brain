@@ -5,9 +5,7 @@ class Tanto < Shain
     puts '担当は慌てて起立しました。'
   end
 
-  private
-
-  def calculate_salary
-    @kihonkyu
+  def calculate_salary(kihonkyu)
+    kihonkyu
   end
 end
